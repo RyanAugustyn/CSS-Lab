@@ -88,13 +88,13 @@ body{
 }
 
 .repeating-img{
-    background-image: url("/images/coffee.jpg");
+    background-image: url("../images/coffee.jpg");
     background-repeat: repeat;
     background-repeat: round;
 }
 
 .actual-size{
-    background-image: url("/images/coffee.jpg");
+    background-image: url("../images/coffee.jpg");
     background-repeat: no-repeat;
     object-fit: none;
 }
