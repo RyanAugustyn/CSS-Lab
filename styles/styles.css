@@ -1,0 +1,106 @@
+
+/* This will apply all included styles to the header element */
+header{
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* This will apply all included styles to any element which uses the "logo" class*/
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -75px;
+}
+
+/* This will apply any included styles to the body element */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:paleturquoise;
+}
+
+/* Create your own classes below! */
+.nav{
+    background-color: aquamarine;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav li {
+    float: left;
+    margin: 2px;
+}
+
+.paragraph-border{
+    width: 400px;
+    border: solid;
+    padding: 10px;
+    border-width: 1px;
+    border-radius: 15px;
+    text-align: justify;
+}
+
+.alt-back-color-1{
+    background-color: rgb(190, 85, 85);
+}
+
+.alt-back-color-2{
+    background-color: lightsalmon;
+}
+
+.flex3{
+    display: flex;
+
+}
+
+.img-style{
+    height: 425px;
+    width: 400px;
+    object-fit: scale-down;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
+}
+
+.color-page-1{
+    height: 100vh;
+    width: 100vw;
+    background-color: thistle;
+}
+
+.color-page-2{
+    height: 100vh;
+    width: 100vw;
+    background-color: lemonchiffon;
+}
+
+.page-view{
+    height: 100vh;
+    width: 100vw;
+}
+
+.repeating-img{
+    background-image: url("/images/coffee.jpg");
+    background-repeat: repeat;
+    background-repeat: round;
+}
+
+.actual-size{
+    background-image: url("/images/coffee.jpg");
+    background-repeat: no-repeat;
+    object-fit: none;
+}
+
+.stretch-img{
+    width: 100vw;
+    height: 100vh;
+    object-fit: fill;
+}
